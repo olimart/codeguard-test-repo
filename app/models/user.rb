@@ -1,7 +1,8 @@
 class User < ActiveRecord::Base
 
-	# ASSOCIATIONS
+  # ASSOCIATIONS
 	# ------------------------------------------------------------------------------------------------------
 	has_many :posts, dependent: :destroy
 
 end
+ 
